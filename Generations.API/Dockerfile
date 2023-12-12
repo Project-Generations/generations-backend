@@ -8,6 +8,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Generations.API/Generations.API.csproj", "Generations.API/"]
+COPY ["Generations.DA/Generations.DA.csproj", "Generations.DA/"]
+COPY ["Generations.PokemonManager/Generations.PokemonManager.csproj", "Generations.PokemonManager/"]
+COPY ["Generations.TeamManager/Generations.TeamManager.csproj", "Generations.TeamManager/"]
 RUN dotnet restore "Generations.API/Generations.API.csproj"
 COPY . .
 WORKDIR "/src/Generations.API"

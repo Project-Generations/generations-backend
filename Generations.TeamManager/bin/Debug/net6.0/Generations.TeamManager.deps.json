@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Generations.TeamManager/1.0.0": {
+        "dependencies": {
+          "Generations.PokemonManager": "1.0.0"
+        },
+        "runtime": {
+          "Generations.TeamManager.dll": {}
+        }
+      },
+      "Generations.PokemonManager/1.0.0": {
+        "runtime": {
+          "Generations.PokemonManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Generations.TeamManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Generations.PokemonManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

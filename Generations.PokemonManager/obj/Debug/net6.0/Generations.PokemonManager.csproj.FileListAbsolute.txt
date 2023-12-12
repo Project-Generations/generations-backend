@@ -1,0 +1,11 @@
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\bin\Debug\net6.0\Generations.PokemonManager.deps.json
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\bin\Debug\net6.0\Generations.PokemonManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\bin\Debug\net6.0\Generations.PokemonManager.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.AssemblyInfoInputs.cache
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.AssemblyInfo.cs
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.csproj.CoreCompileInputs.cache
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\refint\Generations.PokemonManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\Generations.PokemonManager.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.PokemonManager\obj\Debug\net6.0\ref\Generations.PokemonManager.dll
