@@ -3,8 +3,6 @@ using Generations.TeamManager.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using TeamModel = Generations.TeamManager.Models.Team;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace Generations.API.Controllers
 {
     [Route("api/[controller]")]
@@ -17,14 +15,21 @@ namespace Generations.API.Controllers
             this.teamService = teamService;
         }
 
-        // GET: api/<TeamController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<TeamDTO> Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                return teamService.GetTeams()
+                    .Select(p => new TeamDTO(p))
+                    .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
-        // GET api/<TeamController>/5
         [HttpGet("{id}")]
         public TeamByIdDTO Get(int id)
         {
@@ -41,22 +46,17 @@ namespace Generations.API.Controllers
             }
         }
 
-        // POST api/<TeamController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<TeamController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<TeamController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public void Delete(int id)
         {
+            try
+            {
+                teamService.DeleteTeam(id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
     }
 }

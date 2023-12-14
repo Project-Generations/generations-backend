@@ -17,6 +17,11 @@ namespace Generations.TeamManager.Services
             throw new NotImplementedException();
         }
 
+        public void DeleteTeam(int teamId)
+        {
+            iTeam.DeleteTeam(teamId);
+        }
+
         public TeamModel GetTeamById(int teamId)
         {
             TeamModel team = iTeam.GetTeamById(teamId);
@@ -25,10 +30,10 @@ namespace Generations.TeamManager.Services
 
         public IEnumerable<TeamModel> GetTeams()
         {
-            throw new NotImplementedException();
+            return iTeam.GetTeams();
         }
 
-        public void UpdateTeam(int animeId, TeamModel team)
+        public void UpdateTeam(int teamId, TeamModel team)
         {
             throw new NotImplementedException();
         }

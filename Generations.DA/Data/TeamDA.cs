@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using CreatedPokemonEntity = Generations.DA.Entities.Pokemon.CreatedPokemons;
+using TeamEntity = Generations.DA.Entities.Teams;
 using TeamModel = Generations.TeamManager.Models.Team;
 
 namespace Generations.DA.Data
@@ -17,12 +18,37 @@ namespace Generations.DA.Data
 
         public void CreateTeam(TeamModel team)
         {
-            throw new NotImplementedException();
+            if (team != null)
+            {
+                TeamEntity _team = new()
+                {
+                    Id = team.Id,
+                    Name = team.Name,
+                    Format = team.Format
+                };
+
+                _dataContext.Teams.Add(_team);
+                _dataContext.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("Can't create the team, Team is empty");
+            }
         }
 
-        public IEnumerable<TeamModel> GetTeam()
+        public void DeleteTeam(int teamId)
         {
-            throw new NotImplementedException();
+            var team = _dataContext.Teams.Include(t => t.Team).Single(t => t.Id == teamId);
+
+            if (team != null)
+            {
+                _dataContext.Teams.Remove(team);
+                _dataContext.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("This team doesn't exist or can't be deleted");
+            }
         }
 
         public TeamModel GetTeamById(int teamId)
@@ -52,7 +78,23 @@ namespace Generations.DA.Data
 
         public IEnumerable<TeamModel> GetTeams()
         {
-            throw new NotImplementedException();
+            var _teams = _dataContext.Teams.Include(t => t.Team).ToList();
+            List<TeamModel> teams = new();
+
+            foreach (var team in _teams)
+            {
+                TeamModel teamModel = new()
+                {
+                    Id = team.Id,
+                    Name = team.Name,
+                    Format = team.Format,
+                    PokemonTeam = team.Team.Select(CreatedPokemonEntity.ConvertCreatedPokemonsEntity).ToList(),
+                };
+
+                teams.Add(teamModel);
+            }
+
+            return teams;
         }
 
         public void UpdateTeam(int animeId, TeamModel team)
