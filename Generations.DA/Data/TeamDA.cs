@@ -88,7 +88,6 @@ namespace Generations.DA.Data
                     Id = team.Id,
                     Name = team.Name,
                     Format = team.Format,
-                    PokemonTeam = team.Team.Select(CreatedPokemonEntity.ConvertCreatedPokemonsEntity).ToList(),
                 };
 
                 teams.Add(teamModel);

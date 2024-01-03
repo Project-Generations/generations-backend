@@ -21,6 +21,15 @@ namespace Generations.DA
                 SpecialDefenseValue = 0,
                 SpeedValue = 252
             };
+            Evs bulkEvs = new()
+            {
+                HpValue = 252,
+                AttackValue = 0,
+                DefenseValue = 252,
+                SpecialAttackValue = 0,
+                SpecialDefenseValue = 0,
+                SpeedValue = 6
+            };
             Ivs testIvs = new()
             {
                 HpValue = 31,
@@ -71,16 +80,36 @@ namespace Generations.DA
                 Item = testItem
             };
 
+            CreatedPokemons zapdosBulky = new()
+            {
+                Name = "Zapdos",
+                Level = 100,
+                Happiness = 255,
+                Ability = "Pressure",
+                IsShiny = true,
+                Gender = "Genderless",
+                Evs = bulkEvs,
+                Ivs = testIvs,
+            };
+
+
 
             var teams = new Teams[]
-            {
+        {
                 new Teams
                 {
-                    Name = "Test",
+                    Name = "Kantonian birds",
                     Format = "OU",
                     Team = { articuno, zapdos, moltres}
+                },
+
+                new Teams
+                {
+                    Name = "Zapdos bulky",
+                    Format = "OU",
+                    Team = { zapdosBulky }
                 }
-            };
+        };
 
             foreach (Teams team in teams)
             {
