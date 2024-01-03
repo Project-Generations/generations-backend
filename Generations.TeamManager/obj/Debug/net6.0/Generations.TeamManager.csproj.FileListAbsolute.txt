@@ -1,0 +1,15 @@
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\bin\Debug\net6.0\Generations.TeamManager.deps.json
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\bin\Debug\net6.0\Generations.TeamManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\bin\Debug\net6.0\Generations.TeamManager.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.AssemblyInfoInputs.cache
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.AssemblyInfo.cs
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.csproj.CoreCompileInputs.cache
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\refint\Generations.TeamManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\ref\Generations.TeamManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\bin\Debug\net6.0\Generations.PokemonManager.dll
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\bin\Debug\net6.0\Generations.PokemonManager.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.csproj.AssemblyReference.cache
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.TeamManager\obj\Debug\net6.0\Generations.TeamManager.csproj.CopyComplete
