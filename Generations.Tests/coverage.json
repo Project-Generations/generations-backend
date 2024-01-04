@@ -1,0 +1,1917 @@
+{
+  "Generations.API.dll": {
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "6": 0,
+            "9": 0,
+            "10": 0,
+            "13": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "60": 0,
+            "62": 0,
+            "64": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 276,
+              "EndOffset": 278,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 276,
+              "EndOffset": 296,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 15,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\ErrorHandlerMiddleware.cs": {
+      "Generations.API.ErrorHandlerMiddleware": {
+        "System.Void Generations.API.ErrorHandlerMiddleware::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\DTOs\\CreatedPokemonDTO.cs": {
+      "Generations.API.DTOs.CreatedPokemonDTO": {
+        "System.Int32 Generations.API.DTOs.CreatedPokemonDTO::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.CreatedPokemonDTO::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.API.DTOs.CreatedPokemonDTO::get_Level()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.API.DTOs.CreatedPokemonDTO::get_Happiness()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.CreatedPokemonDTO::get_Ability()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Generations.API.DTOs.CreatedPokemonDTO::get_IsShiny()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.CreatedPokemonDTO::get_Gender()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.EvSpread Generations.API.DTOs.CreatedPokemonDTO::get_EvSpread()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.IvSpread Generations.API.DTOs.CreatedPokemonDTO::get_IvSpread()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.Item Generations.API.DTOs.CreatedPokemonDTO::get_HeldItem()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.API.DTOs.CreatedPokemonDTO::.ctor(Generations.PokemonManager.Models.CreatedPokemon)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\DTOs\\TeamByIdDTO.cs": {
+      "Generations.API.DTOs.TeamByIdDTO": {
+        "System.Int32 Generations.API.DTOs.TeamByIdDTO::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.TeamByIdDTO::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.TeamByIdDTO::get_Format()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Generations.PokemonManager.Models.CreatedPokemon> Generations.API.DTOs.TeamByIdDTO::get_PokemonTeam()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.API.DTOs.TeamByIdDTO::.ctor(Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\DTOs\\TeamDTO.cs": {
+      "Generations.API.DTOs.TeamDTO": {
+        "System.Int32 Generations.API.DTOs.TeamDTO::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.TeamDTO::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.API.DTOs.TeamDTO::get_Format()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.API.DTOs.TeamDTO::.ctor(Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.API\\Controllers\\TeamController.cs": {
+      "Generations.API.Controllers.TeamController": {
+        "System.Collections.Generic.IEnumerable`1<Generations.API.DTOs.TeamDTO> Generations.API.Controllers.TeamController::Get()": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "Generations.API.DTOs.TeamByIdDTO Generations.API.Controllers.TeamController::Get(System.Int32)": {
+          "Lines": {
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.API.Controllers.TeamController::Delete(System.Int32)": {
+          "Lines": {
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.API.Controllers.TeamController::.ctor(Generations.TeamManager.Interfaces.ITeamService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Generations.DA.dll": {
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\DataContext.cs": {
+      "Generations.DA.DataContext": {
+        "Microsoft.Extensions.Configuration.IConfiguration Generations.DA.DataContext::get_Configuration()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.DA.DataContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.DA.DataContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Generations.DA.Entities.Teams> Generations.DA.DataContext::get_Teams()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Generations.DA.Entities.Pokemon.CreatedPokemons> Generations.DA.DataContext::get_CreatedPokemons()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Generations.DA.Entities.Pokemon.Evs> Generations.DA.DataContext::get_Evs()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Generations.DA.Entities.Pokemon.Ivs> Generations.DA.DataContext::get_Ivs()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Generations.DA.Entities.Pokemon.Items> Generations.DA.DataContext::get_Items()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.DA.DataContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Generations.DA.DataContext>,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\DbSeeder.cs": {
+      "Generations.DA.DbSeeder": {
+        "System.Void Generations.DA.DbSeeder::Initialize(Generations.DA.DataContext)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 774,
+              "EndOffset": 739,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 774,
+              "EndOffset": 776,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Migrations\\20231201110934_initialCreate.cs": {
+      "Generations.DA.Migrations.initialCreate": {
+        "System.Void Generations.DA.Migrations.initialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.DA.Migrations.initialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "196": 0,
+            "197": 0,
+            "199": 0,
+            "200": 0,
+            "202": 0,
+            "203": 0,
+            "205": 0,
+            "206": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Migrations\\20231201110934_initialCreate.Designer.cs": {
+      "Generations.DA.Migrations.initialCreate": {
+        "System.Void Generations.DA.Migrations.initialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "266": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Migrations\\DataContextModelSnapshot.cs": {
+      "Generations.DA.Migrations.DataContextModelSnapshot": {
+        "System.Void Generations.DA.Migrations.DataContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "263": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Teams.cs": {
+      "Generations.DA.Entities.Teams": {
+        "System.Int32 Generations.DA.Entities.Teams::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Teams::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Teams::get_Format()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Generations.DA.Entities.Pokemon.CreatedPokemons> Generations.DA.Entities.Teams::get_Team()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Pokemon\\CreatedPokemons.cs": {
+      "Generations.DA.Entities.Pokemon.CreatedPokemons": {
+        "System.Int32 Generations.DA.Entities.Pokemon.CreatedPokemons::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.CreatedPokemons::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.CreatedPokemons::get_Level()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.CreatedPokemons::get_Happiness()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.CreatedPokemons::get_Ability()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Generations.DA.Entities.Pokemon.CreatedPokemons::get_IsShiny()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.CreatedPokemons::get_Gender()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Generations.DA.Entities.Pokemon.Ivs Generations.DA.Entities.Pokemon.CreatedPokemons::get_Ivs()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Generations.DA.Entities.Pokemon.Evs Generations.DA.Entities.Pokemon.CreatedPokemons::get_Evs()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Generations.DA.Entities.Pokemon.Items Generations.DA.Entities.Pokemon.CreatedPokemons::get_Item()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Generations.DA.Entities.Pokemon.Moves> Generations.DA.Entities.Pokemon.CreatedPokemons::get_Moves()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.CreatedPokemon Generations.DA.Entities.Pokemon.CreatedPokemons::ConvertCreatedPokemonsEntity(Generations.DA.Entities.Pokemon.CreatedPokemons)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Pokemon\\Evs.cs": {
+      "Generations.DA.Entities.Pokemon.Evs": {
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_HpValue()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_AttackValue()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_DefenseValue()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_SpecialAttackValue()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_SpecialDefenseValue()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Evs::get_SpeedValue()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.EvSpread Generations.DA.Entities.Pokemon.Evs::ConvertEvsEntity(Generations.DA.Entities.Pokemon.Evs)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Pokemon\\Items.cs": {
+      "Generations.DA.Entities.Pokemon.Items": {
+        "System.Int32 Generations.DA.Entities.Pokemon.Items::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.Items::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.Item Generations.DA.Entities.Pokemon.Items::ConvertItemsEntity(Generations.DA.Entities.Pokemon.Items)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Pokemon\\Ivs.cs": {
+      "Generations.DA.Entities.Pokemon.Ivs": {
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_HpValue()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_AttackValue()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_DefenseValue()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_SpecialAttackValue()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_SpecialDefenseValue()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.DA.Entities.Pokemon.Ivs::get_SpeedValue()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.IvSpread Generations.DA.Entities.Pokemon.Ivs::ConvertIvsEntity(Generations.DA.Entities.Pokemon.Ivs)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Entities\\Pokemon\\Moves.cs": {
+      "Generations.DA.Entities.Pokemon.Moves": {
+        "System.Int32 Generations.DA.Entities.Pokemon.Moves::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.Moves::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.DA.Entities.Pokemon.Moves::get_Category()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.Move Generations.DA.Entities.Pokemon.Moves::ConvertMovesEntity(Generations.DA.Entities.Pokemon.Moves)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.DA\\Data\\TeamDA.cs": {
+      "Generations.DA.Data.TeamDA": {
+        "System.Void Generations.DA.Data.TeamDA::CreateTeam(Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 7,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Generations.DA.Data.TeamDA::DeleteTeam(System.Int32)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 192,
+              "EndOffset": 194,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 192,
+              "EndOffset": 228,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Generations.TeamManager.Models.Team Generations.DA.Data.TeamDA::GetTeamById(System.Int32)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Generations.TeamManager.Models.Team> Generations.DA.Data.TeamDA::GetTeams()": {
+          "Lines": {
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 172,
+              "EndOffset": 96,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Generations.DA.Data.TeamDA::UpdateTeam(System.Int32,Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "100": 0,
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.DA.Data.TeamDA::.ctor(Generations.DA.DataContext)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Generations.PokemonManager.dll": {
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.PokemonManager\\Models\\CreatedPokemon.cs": {
+      "Generations.PokemonManager.Models.CreatedPokemon": {
+        "System.Int32 Generations.PokemonManager.Models.CreatedPokemon::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.PokemonManager.Models.CreatedPokemon::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.CreatedPokemon::get_Level()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.CreatedPokemon::get_Happiness()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.PokemonManager.Models.CreatedPokemon::get_Ability()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Generations.PokemonManager.Models.CreatedPokemon::get_IsShiny()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.PokemonManager.Models.CreatedPokemon::get_Gender()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.Item Generations.PokemonManager.Models.CreatedPokemon::get_HeldItem()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.EvSpread Generations.PokemonManager.Models.CreatedPokemon::get_EvSpread()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Generations.PokemonManager.Models.IvSpread Generations.PokemonManager.Models.CreatedPokemon::get_IvSpread()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Generations.PokemonManager.Models.Move> Generations.PokemonManager.Models.CreatedPokemon::get_Moves()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.PokemonManager\\Models\\EvSpread.cs": {
+      "Generations.PokemonManager.Models.EvSpread": {
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_HpValue()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_AttackValue()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_DefenseValue()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_SpecialAttackValue()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_SpecialDefenseValue()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.EvSpread::get_SpeedValue()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.PokemonManager\\Models\\Item.cs": {
+      "Generations.PokemonManager.Models.Item": {
+        "System.String Generations.PokemonManager.Models.Item::get_Name()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.PokemonManager\\Models\\IvSpread.cs": {
+      "Generations.PokemonManager.Models.IvSpread": {
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_HpValue()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_AttackValue()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_DefenseValue()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_SpecialAttackValue()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_SpecialDefenseValue()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Generations.PokemonManager.Models.IvSpread::get_SpeedValue()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.PokemonManager\\Models\\Move.cs": {
+      "Generations.PokemonManager.Models.Move": {
+        "System.String Generations.PokemonManager.Models.Move::get_Name()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.PokemonManager.Models.Move::get_Category()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Generations.TeamManager.dll": {
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.TeamManager\\Services\\TeamService.cs": {
+      "Generations.TeamManager.Services.TeamService": {
+        "System.Void Generations.TeamManager.Services.TeamService::CreateTeam(Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.TeamManager.Services.TeamService::DeleteTeam(System.Int32)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "Generations.TeamManager.Models.Team Generations.TeamManager.Services.TeamService::GetTeamById(System.Int32)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Generations.TeamManager.Models.Team> Generations.TeamManager.Services.TeamService::GetTeams()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.TeamManager.Services.TeamService::UpdateTeam(System.Int32,Generations.TeamManager.Models.Team)": {
+          "Lines": {
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Generations.TeamManager.Services.TeamService::.ctor(Generations.TeamManager.Interfaces.ITeam)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.TeamManager\\Models\\Team.cs": {
+      "Generations.TeamManager.Models.Team": {
+        "System.Int32 Generations.TeamManager.Models.Team::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.TeamManager.Models.Team::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Generations.TeamManager.Models.Team::get_Format()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Generations.PokemonManager.Models.CreatedPokemon> Generations.TeamManager.Models.Team::get_PokemonTeam()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

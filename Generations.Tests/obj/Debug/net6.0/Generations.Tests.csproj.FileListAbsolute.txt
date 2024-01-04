@@ -97,7 +97,6 @@ C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\obj\De
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\obj\Debug\net6.0\Generations.Tests.pdb
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\obj\Debug\net6.0\Generations.Tests.genruntimeconfig.cache
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\obj\Debug\net6.0\ref\Generations.Tests.dll
-C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\Generations.API.deps.json
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\Generations.API.runtimeconfig.json
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\appsettings.Development.json
@@ -131,3 +130,4 @@ C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\De
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\Generations.PokemonManager.pdb
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\Generations.TeamManager.pdb
 C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\Generations.DA.pdb
+C:\Users\ben\Documents\Fontys\S3\IP\generations-backend\Generations.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping_Generations.Tests

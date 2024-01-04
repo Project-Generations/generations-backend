@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ee8BygTcsNL3Uxbr8AdQ+ATsG6uNIEpQv8fIio5Qfacl/IVpUvUrTz7QzmXH3zhINmWxJ/rjWahJWnzV6jlaVg==",
+  "dgSpecHash": "uJpE9kmpurp7s4Fr4qlE3lzKQJo9JA3lMVW9VVN/NMspXhcAXjcQAJRDfzk+8R7fCPAnM0UwdZuXsFg5C0qkAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ben\\Documents\\Fontys\\S3\\IP\\generations-backend\\Generations.Tests\\Generations.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ben\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\ben\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\ben\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ben\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\ben\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\ben\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
