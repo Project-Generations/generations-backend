@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Generations.API\Generations.API.csproj" />
     <ProjectReference Include="..\Generations.PokemonManager\Generations.PokemonManager.csproj" />
     <ProjectReference Include="..\Generations.TeamManager\Generations.TeamManager.csproj" />
   </ItemGroup>
