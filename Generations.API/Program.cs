@@ -3,6 +3,7 @@ using Generations.DA.Data;
 using Generations.TeamManager.Interfaces;
 using Generations.TeamManager.Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 //Dependency inversion
@@ -64,3 +65,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

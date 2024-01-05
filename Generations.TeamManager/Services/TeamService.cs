@@ -5,7 +5,7 @@ namespace Generations.TeamManager.Services
 {
     public class TeamService : ITeamService
     {
-        private ITeam iTeam;
+        private readonly ITeam iTeam;
 
         public TeamService(ITeam iTeam)
         {

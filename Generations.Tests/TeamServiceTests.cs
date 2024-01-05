@@ -34,8 +34,7 @@ namespace Generations.Tests
             Assert.AreEqual(TeamFormat, getTeamById.Format);
         }
 
-        /*
-        [TestMethod]
+        /*[TestMethod]
         public void FailedToGetTeamByIdTest_Method()
         {
             int TeamId = 1;
@@ -54,7 +53,7 @@ namespace Generations.Tests
             var controller = new TeamController(TeamServiceMock.Object);
             var getTeamById = controller.Get(2);
 
-            Assert.ThrowsException<Exception>(getTeamById);
+            Assert.ThrowsException<Exception>(() => getTeamById);
         }*/
 
         [TestMethod]
@@ -85,11 +84,35 @@ namespace Generations.Tests
         [TestMethod]
         public void CreateTeamTest_Method()
         {
+            Team TestTeam = new()
+            {
+                Id = 1,
+                Name = "Test",
+                Format = "OU",
+            };
+
+            TeamServiceMock.Setup(x => x.CreateTeam(TestTeam));
+            var controller = new TeamController(TeamServiceMock.Object);
+
         }
 
-        [TestMethod]
+        /*[TestMethod]
         public void DeleteTeamTest_Method()
         {
-        }
+            int teamId = 1;
+
+            Team TestTeam = new()
+            {
+                Id = teamId,
+                Name = "Test",
+                Format = "OU",
+            };
+
+            TeamServiceMock.Setup(x => x.DeleteTeam(teamId));
+            var controller = new TeamController(TeamServiceMock.Object);
+            controller.Delete(teamId);
+
+            Assert.IsNull(TestTeam);
+        }*/
     }
 }
