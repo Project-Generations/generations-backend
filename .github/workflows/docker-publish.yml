@@ -51,23 +51,8 @@ jobs:
           dotnet test --verbosity normal
         working-directory: Generations.Tests
 
-  integration-tests:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v2
-        with:
-          dotnet-version: 6.0.x
-      - name: Integration Tests
-        run: |
-          dotnet test --verbosity normal
-        working-directory: Generations.IntegrationTests
-
   sonarqube:
-    needs: [unit-tests, integration-tests]
+    needs: unit-tests
     name: code-analysis
     runs-on: windows-latest
     permissions: read-all
@@ -109,8 +94,23 @@ jobs:
           coverlet .\Generations.IntegrationTests\bin\Debug\net6.0\Generations.IntegrationTests.dll --target "dotnet" --targetargs "test --no-build" -f=opencover -o="coverage.json"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
-  docker:
+  integration-tests:
     needs: sonarqube
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: 6.0.x
+      - name: Integration Tests
+        run: |
+          dotnet test --verbosity normal
+        working-directory: Generations.IntegrationTests
+
+  docker:
+    needs: integration-tests
     runs-on: ubuntu-latest
     permissions:
       contents: read

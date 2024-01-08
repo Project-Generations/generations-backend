@@ -21,7 +21,7 @@ namespace Generations.IntegrationTests
             response.EnsureSuccessStatusCode();
 
             Assert.StartsWith("application/json",
-                response?.Content?.Headers?.ContentType?.ToString());
+                response.Content.Headers.ContentType.ToString());
         }
 
         /*[Theory]
